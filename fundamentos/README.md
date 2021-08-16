@@ -1,0 +1,3 @@
+# Fundamentos :hourglass:
+Este módulo apresenta o SO Unix, o terminal e seus comandos, Git e Github, seus comandos e utilidades.
++...
