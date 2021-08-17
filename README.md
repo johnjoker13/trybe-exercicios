@@ -8,8 +8,8 @@ Este repositório contém todos os exercícios realizados por [João Oliveira](w
 - [x] 1-3: _Unix & Shell- Part 1_ 
 - [x] 1-4: _Unix & Shell- Part 2_ 
 
-##### Bloco 2: Git & GitHub
+##### Bloco 2: Git & GitHub ✔️
 
 - [x] 2-1: _O que é e para que serve?_
 - [x] 2-2: _Entendendo os comandos_
-- [ ] 2-3: _Internet - Entendendo como ela funciona_
+- [x] 2-3: _Internet - Entendendo como ela funciona_
