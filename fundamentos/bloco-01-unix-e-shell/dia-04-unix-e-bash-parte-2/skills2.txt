@@ -1,0 +1,8 @@
+Internet 
+Unix
+Bash
+Java
+Javascript
+Redux
+React
+Angular
