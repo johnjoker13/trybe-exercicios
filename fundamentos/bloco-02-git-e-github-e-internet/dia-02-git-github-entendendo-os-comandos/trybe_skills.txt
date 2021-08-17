@@ -5,5 +5,6 @@ O que eu vou aprender na Trybe:
 - Git
 - HTML
 - CSS
-Banco de Dados
-Javascript
+- HTTP
+- Estrutura de Dados
+
