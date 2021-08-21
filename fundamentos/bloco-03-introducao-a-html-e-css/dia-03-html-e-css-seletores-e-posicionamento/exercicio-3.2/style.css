@@ -2,3 +2,22 @@ div:hover {
     border: 5px solid black;
 }
 
+div:nth-of-type(1n) {
+    background-color: lightyellow;
+} 
+
+div:nth-of-type(2n) {
+    background-color: yellow;
+} 
+
+div:nth-of-type(3n) {
+    background-color: orange;
+} 
+
+div:nth-of-type(4n) {
+    background-color: orangered;
+} 
+
+div:nth-of-type(5n) {
+    background-color: red;
+} 
