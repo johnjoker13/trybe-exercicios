@@ -20,6 +20,10 @@
   
   .speach {
     font-size: 25px;
+    position: absolute;
+    left: 310px;
+    z-index: 3;
+    top: 60px;
   }
   
   .bowser {
