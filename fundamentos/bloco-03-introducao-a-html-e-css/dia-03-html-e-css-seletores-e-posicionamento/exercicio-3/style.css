@@ -1,6 +1,10 @@
  h1, p {
    text-align: center;
  }
+
+ ul, ol {
+   list-style: none;
+ }
  
  ol:hover {
    background-color: darkseagreen;
