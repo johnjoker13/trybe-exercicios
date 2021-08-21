@@ -5,3 +5,11 @@
  ol:hover {
    background-color: darkseagreen;
  }
+
+ a {
+   text-decoration: none;
+ }
+
+ a, li:visited {
+   font-style: italic;
+ }
