@@ -75,6 +75,11 @@ a {
     width: 100%;
 }
 
+.info_animal caption {
+    margin-bottom: 10px;
+    font-weight: bolder;
+}
+
 .info_animal, th, td{
     border: 1px solid #ddd;
     text-align: center;
@@ -92,7 +97,7 @@ a {
     padding: 20px;
 }
 
-.default_block h2, h3 {
+.default_block h2 {
     font-size: 20px;
     font-weight: bolder;
 }
