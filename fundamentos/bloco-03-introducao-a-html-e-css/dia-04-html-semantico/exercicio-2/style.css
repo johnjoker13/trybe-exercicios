@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&display=swap');
+
+* {
+    font-family: 'Inconsolata', monospace;
+}
+
+a {
+ text-decoration: none;  
+}
+
+
+.cabecalho {
+    padding: 100px;
+    text-align: center;
+}
+
+.cabecalho h1 {
+    font-size: 40px;
+}
+
+.menu {
+    text-align: center;
+}
+
+.menu li{
+    display: inline-block;
+    margin: 20px;
+}
+
+.menu li:hover {
+    transform: scale(1.5);
+    transition: 1.5s;
+}
+
+.container {
+    width: 700px;
+    margin: 0 auto;
+    display: inline-block;
+    line-height: 1.8;
+}
+
+.conteudo_lateral {
+    float: right;
+    position: relative;
+    width: 300px;
+    height: 100%;
+    top: 0;
+    right: 0;
+    margin: 105px 220px 0 0;
+    
+}
+
+.conteudo_lateral_cabecalho{
+    margin-bottom: 10px;
+    text-align: center;
+
+}
+
+.conteudo_lateral h2 {
+    font-weight: bolder;
+}
+
+.conteudo_lateral p {
+    font-style: italic;
+}
+
+.info_animal {
+    width: 100%;
+}
+
+.info_animal, th, td{
+    border: 1px solid #ddd;
+    text-align: center;
+    padding: 5px;
+}
+
+.info_animal tr:nth-child(even) {
+    background-color: #ddd;
+}
+
+.default_block {
+    border: 1px solid #ddd;
+    margin: 20px 0 0 20px;
+    text-align: center;
+}
+
+.default_block h2, h3 {
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.rodape {
+    width: 100%;
+    padding: 60px;
+    bottom: 0;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.911);
+    display: block;
+}
