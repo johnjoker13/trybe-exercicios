@@ -1,0 +1,1 @@
+O terminal retornou erro por que nao e possivel alterar o valor de uma constante.
