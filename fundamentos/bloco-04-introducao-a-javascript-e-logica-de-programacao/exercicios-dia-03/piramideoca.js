@@ -1,17 +1,20 @@
-function reserveTriangle(tamanho) {
-    for (let i = 0; i < tamanho; i++) {
-      let aux = " ";
-      for (let j = 0; j < tamanho; j++) {
-        if (j >= tamanho - i - 1) {
-          aux += " *";
-        }
-        
-        else {
-          aux += " ";
-        }
+function piramideOca(tamanho) {
+  let meio = (tamanho + 1) / 2;
+  let esquerda = meio;
+  let direita = meio;
+  for (let i = 1; i <= meio; i++) {
+    let aux = "";
+    for (let j = 1; j <= tamanho; j++) {
+      if (j == esquerda || j == direita || i == meio) {
+        aux += "*";
+      } else {
+        aux += " ";
       }
-      console.log(aux);
     }
+  esquerda -= 1;
+  direita += 1;
+  console.log(aux);
   }
-  
-  reserveTriangle(5);
+}
+
+piramideOca(5);

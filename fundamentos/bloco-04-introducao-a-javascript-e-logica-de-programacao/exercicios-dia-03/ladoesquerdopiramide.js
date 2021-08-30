@@ -7,6 +7,7 @@ function reserveTriangle(tamanho) {
       } else {
         aux += " ";
       }
+
     }
     console.log(aux);
   }
