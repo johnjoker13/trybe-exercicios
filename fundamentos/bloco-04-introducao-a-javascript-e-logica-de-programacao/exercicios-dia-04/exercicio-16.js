@@ -3,7 +3,7 @@ let conjuntoNomes = ["José", "Lucas", "Nádia", "Fernanda", "Cairo", "Joana", "
 function maiorNome(meuArray) {
   let index = 0;
   let length = 0;
-  let name = "";
+  let nome = "";
   for (let i = 0; i < meuArray.length; i++) {
     if (meuArray[i].length > length) {
       length = meuArray[i].length;
