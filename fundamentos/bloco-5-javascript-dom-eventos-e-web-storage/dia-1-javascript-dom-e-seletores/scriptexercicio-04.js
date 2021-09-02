@@ -1,0 +1,10 @@
+document.querySelector("#header-container").style.backgroundColor = "#2fc18c";
+document.getElementsByTagName("h3")[0].style.backgroundColor = "#fd7cff";
+document.getElementsByTagName("h3")[1].style.backgroundColor = "#fd7cff";
+document.getElementsByTagName("div")[0].style.backgroundColor = "#FF9797";
+document.getElementsByTagName("div")[1].style.backgroundColor = "#FF9797";
+document.getElementsByTagName("h3")[2].style.backgroundColor = "#333";
+document.getElementsByTagName("h3")[3].style.backgroundColor = "#333";
+document.getElementsByTagName("div")[2].style.backgroundColor = "#FFF170";
+document.getElementsByTagName("div")[3].style.backgroundColor = "#FFF170";
+document.getElementsByTagName("footer")[0].style.backgroundColor = "#004F49";
