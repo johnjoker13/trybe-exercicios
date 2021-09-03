@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exercicio-01</title>
+  </head>
+  <body>
+    <main id="paiDoPai">
+      <section id="pai">
+        <section id="primeiroFilho"></section>
+        <section id="elementoOndeVoceEsta">
+          <section id="primeiroFilhoDoFilho"></section>
+          <section id="segundoEUltimoFilhoDoFilho"></section>
+        </section>
+        Atenção!
+        <section id="terceiroFilho"></section>
+        <section id="quartoEUltimoFilho"></section>
+      </section>
+    </main>
+    <script>
+      const pai = document.getElementById("pai");
+      const irmaoElementoOndeVoceEsta = document.createElement("section");
+      irmaoElementoOndeVoceEsta.id = "irmaoElementoOndeVoceEsta";
+      pai.appendChild(irmaoElementoOndeVoceEsta);
+
+      const elementoOndeVoceEsta = document.getElementById("elementoOndeVoceEsta");
+      elementoOndeVoceEsta.innerText = "elementoOndeVoceEsta";
+      elementoOndeVoceEsta.style.color = "red";
+      const filhoElementoOndeVoceEsta = document.createElement("section");
+      filhoElementoOndeVoceEsta.id = "filhoElementoOndeVoceEsta";
+      filhoElementoOndeVoceEsta.innerText = "filhoElementoOndeVoceEsta";
+      filhoElementoOndeVoceEsta.style.color = "green";
+      elementoOndeVoceEsta.appendChild(filhoElementoOndeVoceEsta);
+
+      const primeiroFilhoDoFilho = document.getElementById("primeiroFilhoDoFilho");
+      primeiroFilhoDoFilho.innerText = "primeiroFilhoDoFilho";
+      primeiroFilhoDoFilho.style.color = "blue";
+      const filhoPrimeiroFilhoDoFilho = document.createElement("section");
+      filhoPrimeiroFilhoDoFilho.innerText = "filhoPrimeiroFilhoDoFilho";
+      filhoPrimeiroFilhoDoFilho.id = "filhoPrimeiroFilhoDoFilho";
+      filhoPrimeiroFilhoDoFilho.style.color = "orange";
+      primeiroFilhoDoFilho.appendChild(filhoPrimeiroFilhoDoFilho);
+
+      const terceiroFilho = filhoPrimeiroFilhoDoFilho.parentElement.parentElement .nextElementSibling;
+      terceiroFilho.textContent = "terceiroFilho";
+      terceiroFilho.style.color = "yellow"; 
+      console.log(terceiroFilho);
+    </script>
+  </body>
+</html>
