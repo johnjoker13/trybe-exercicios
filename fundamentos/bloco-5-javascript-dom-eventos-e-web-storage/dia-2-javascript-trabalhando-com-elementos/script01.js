@@ -1,0 +1,10 @@
+const elementoOndeVoceEsta = document.getElementById('elementoOndeVoceEsta');
+const pai = elementoOndeVoceEsta.parentElement;
+    pai.style.color = 'red';
+    const primeiroFilhoDoFilho = elementoOndeVoceEsta.firstElementChild;
+    primeiroFilhoDoFilho.innerText = 'primeiroFilhoDoFilho';
+    const primeiroFilho = pai.firstElementChild;
+    const primeiroFilhoDois = elementoOndeVoceEsta.previousElementSibling;
+    const textElement = elementoOndeVoceEsta.nextSibling;
+    const terceiroFilho = elementoOndeVoceEsta.nextElementSibling;
+    const terceiroFilhoDois = pai.lastElementChild.previousElementSibling;
