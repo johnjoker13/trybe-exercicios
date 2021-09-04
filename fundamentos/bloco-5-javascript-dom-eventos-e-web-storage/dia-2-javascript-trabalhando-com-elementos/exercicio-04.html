@@ -15,7 +15,7 @@
       }
 
       .main-content {
-        background-color: yellow;
+        background-color: green;
       }
 
       .main-content .center-content {
@@ -47,7 +47,7 @@
         background-color: blue;
         width: 60%;
         margin-left: auto;
-        margin-right: 0;
+        margin-right: auto;
       }
 
       .main-content .description {
@@ -58,37 +58,73 @@
   <body>
     <script>
       // COLOQUE SEU CÓDIGO AQUI
+
+      //Cria o elemento h1
       const h1 = document.createElement("h1");
+      //adiciona a classe title ao h1
+      h1.classList.add("title");
+      //Adiciona css e texto ao elemento h1
       h1.textContent = "Exercício 5.2 - JavaScript DOM  ";
       h1.style.color = "red";
+      //Adiciona h1 como filho de body
       document.body.appendChild(h1);
+      //cria elemento main
       const main = document.createElement("main");
+      //adiciona classe main-content ao elemento main
       main.classList.add("main-content");
+      //adiciona texto ao main
       main.textContent = "main";
+      //adiciona main como filho de body
       document.body.appendChild(main);
+      //cria elemento section
       const section = document.createElement("section");
+      //adiciona classe center-content ao section
       section.classList.add("center-content");
+      //adiciona texto ao section
       section.textContent = "section";
+      //adiciona section como filho de main
       main.appendChild(section);
+      //cria o elemento p
       const p = document.createElement("p");
+      //adiciona texto a p
       p.textContent = "paragrafo";
+      //adiciona p como filho de section
       section.appendChild(p);
+      //cria elemento section
       const sectionMain = document.createElement("section");
+      //adiciona a classe left-content a section
       sectionMain.classList.add("left-content");
+      //adiciona texto a section
       sectionMain.textContent = "section";
+      //adiciona section como filho de main
       main.appendChild(sectionMain);
+       //remove a section que contém a classe left-content
+       main.removeChild(sectionMain);
+      //cria elemento section
       const sectionMainRight = document.createElement("section");
+      //adiciona a classe right-content a section
       sectionMainRight.classList.add("right-content");
+      //adiciona texto a section
       sectionMainRight.textContent = "section";
+      //adiciona section como filho de main
       main.appendChild(sectionMainRight);
+      //cria o elemento img
       const img = document.createElement("img");
+      //adiciona src ao img com link da imagem
       img.src = "https://picsum.photos/200";
+      //adiciona classe small-image ao img
       img.classList.add("small-image");
+      //adiciona img como filho de section
       sectionMain.appendChild(img);
+      //cria o elemento ol
       const ol = document.createElement("ol");
+      //add id lista ao elemento ol
       ol.id = "lista"
+      //addiciona ol como filho de section
       sectionMainRight.appendChild(ol);
+      //cria o array numbers
       const numbers = ["um","dois","tres","quatro","cinco","seis","sete","oito","nove","dez"];
+      //cria funcao para adicionar li's ao elemento ol contendo os elementos do array numbers
       function addItems () {
       for (let i = 0; i < numbers.length; i++) {
           const li = document.createElement("li");
@@ -97,10 +133,17 @@
         }
       }
       addItems();
+      const listaOrdenada = document.getElementById("lista");
+      const listaNove = document.getElementsByTagName("li")[8];
+      const listaDez = document.getElementsByTagName("li")[9];
+      listaOrdenada.removeChild(listaNove);
+      listaOrdenada.removeChild(listaDez);
+      //cria a funcao para cria elementos h3 
       let data = "h3";
       function addHeaders () {
       for(let index = 0; index < 3; index++) {
           const h3 = document.createElement("h3");
+          h3.classList.add("description");
           h3.appendChild(document.createTextNode(data));
           document.querySelector(".main-content").appendChild(h3);
       }
