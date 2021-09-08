@@ -33,7 +33,7 @@ Este repositório contém todos os exercícios realizados por [João Oliveira](w
 ##### Bloco 5: Introdução - JavaScript - Projetos :hourglass_flowing_sand:
 
 - [x] 5-1: _JavaScript - DOM e seletores_
-- [ ] 5-2: _JavaScript - Trabalhando com elementos_
+- [x] 5-2: _JavaScript - Trabalhando com elementos_
 - [ ] 5-3: _JavaScript - Eventos_
 - [ ] 5-4: _JavaScript - Web Storage_
 - [ ] 5-5: _Projeto - Meme Generator
