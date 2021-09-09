@@ -37,4 +37,29 @@ window.onload = function () {
     getParagraphFontFamily.style.fontFamily = getFontFamily.value;
     localStorage.setItem("fontFamily", getFontFamily.value);
   });
+
+  //Persistir alteracoes
+  function getData() {
+
+    let backgroundColor = localStorage.getItem("background");
+    if (backgroundColor) document.body.style.backgroundColor = backgroundColor;
+
+    let fontColor = localStorage.getItem("textColor");
+    let paragraph = document.querySelector("p");
+    if (fontColor) paragraph.style.color = fontColor;
+
+    let fontSize = localStorage.getItem("fontSize");
+    let sizeFont = document.querySelector("p");
+    if (fontSize) sizeFont.style.fontSize = `${fontSize}px`;
+
+    let letterSpacing = localStorage.getItem("letterSpacing");
+    let spacingLetter = document.querySelector("p");
+    if (letterSpacing) spacingLetter.style.letterSpacing = `${letterSpacing}px`;
+
+    let fontFamily = localStorage.getItem("fontFamily");
+    let familyFont = document.querySelector("p");
+    if (fontFamily) familyFont.style.fontFamily = fontFamily;
+  }
+
+  getData();
 };
