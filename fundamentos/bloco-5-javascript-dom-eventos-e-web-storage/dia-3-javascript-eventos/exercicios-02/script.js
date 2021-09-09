@@ -174,9 +174,49 @@ function taskDay(colour) {
       evt.target.style.backgroundColor = colour;
     });
     getDays[index].addEventListener("dblclick", function (evt) {
-        evt.target.style.backgroundColor = "#eee";
-    })
+      evt.target.style.backgroundColor = "#eee";
+    });
   }
 }
 
 taskDay(taskColor);
+
+//Bonus
+
+let getInput = document.getElementById("task-input");
+let getTaskButton = document.getElementById("btn-add");
+let getTaskList = document.getElementsByClassName("task-list")[0];
+
+function getInputData() {
+  let inputValue = "";
+  getInput.addEventListener("input", function (evt) {
+    inputValue = evt.target.value;
+  });
+  getTaskButton.addEventListener("click", function () {
+    if (inputValue.length <= 0) {
+      alert("Erro");
+    }
+    let li = document.createElement("li");
+    li.appendChild(document.createTextNode(inputValue));
+    getTaskList.appendChild(li);
+    getInput.value = '';
+  });
+  
+  getInput.addEventListener('keyup', function(event) {
+    if(inputValue.length <= 0) {
+        alert("Erro");
+    }
+    if (event.keyCode === 13) {
+      let li = document.createElement('li');
+      li.appendChild(document.createTextNode(inputValue));
+      getTaskList.appendChild(li);
+      getInput.value = '';
+    }
+  });
+}
+
+
+
+
+getInputData();
+
