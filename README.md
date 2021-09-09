@@ -34,8 +34,8 @@ Este repositório contém todos os exercícios realizados por [João Oliveira](w
 
 - [x] 5-1: _JavaScript - DOM e seletores_
 - [x] 5-2: _JavaScript - Trabalhando com elementos_
-- [ ] 5-3: _JavaScript - Eventos_
-- [ ] 5-4: _JavaScript - Web Storage_
+- [x] 5-3: _JavaScript - Eventos_
+- [x] 5-4: _JavaScript - Web Storage_
 - [ ] 5-5: _Projeto - Meme Generator
 - [ ] 5-6: _Projeto - Arte com Pixels_
 - [ ] 5-7: _Projeto - Lista de tarefas_
