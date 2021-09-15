@@ -22,7 +22,7 @@ Este repositório contém todos os exercícios realizados por [João Oliveira](w
 - [x] 3-4: _HTML Semântico_
 - [x] 3-5 _Projeto - HTML & CSS_
 
-##### Bloco 4: Introdução - JavaScript ✔️
+##### Bloco 4: Introdução - JavaScript e Lógica de programação ✔️
 
 - [x] 4-1: _JavaScript - Primeiros passos_
 - [x] 4-2: _JavaScript - Array e loop For_
@@ -30,14 +30,24 @@ Este repositório contém todos os exercícios realizados por [João Oliveira](w
 - [x] 4-4: _JavaScript - Objetos e funções_
 - [x] 4-5: _Projeto - Playground Functions_
 
-##### Bloco 5: Introdução - JavaScript - Projetos :hourglass_flowing_sand:
+##### Bloco 5: Introdução - JavaScript: DOM, Eventos e Web Storage / Projetos ✔️
 
 - [x] 5-1: _JavaScript - DOM e seletores_
 - [x] 5-2: _JavaScript - Trabalhando com elementos_
 - [x] 5-3: _JavaScript - Eventos_
 - [x] 5-4: _JavaScript - Web Storage_
-- [ ] 5-5: _Projeto - Meme Generator
-- [ ] 5-6: _Projeto - Arte com Pixels_
-- [ ] 5-7: _Projeto - Lista de tarefas_
+- [x] 5-5: _Projeto - Meme Generator
+- [x] 5-6: _Projeto - Arte com Pixels_
+- [x] 5-7: _Projeto - Lista de tarefas_
 - [ ] 5-7: _Projeto - Adivinhe a Cor_
-- [ ] 5-7: _Projeto - Carta Misteriosa_
+- [x] 5-7: _Projeto - Carta Misteriosa_
+
+##### Bloco 6: HTML e CSS: Forms, Flexbox e Responsivo ⏳
+
+- [x] 6-1: _HTML & CSS - Forms_
+- [ ] 6-2: _Bibliotecas JavaScript e Frameworks CSS_
+- [ ] 6-3: _Introdução - CSS Flexbox_
+- [ ] 6-3: _CSS Flexbox - Parte 1_
+- [ ] 6-4: _CSS Flexbox - Parte 2_
+- [ ] 6-5: _CSS Responsivo - Mobile First_
+- [ ] 6-6: _Projeto - Trybewarts_
