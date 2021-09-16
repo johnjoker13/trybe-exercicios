@@ -1,11 +1,14 @@
 const insertStates = $('#estados');
 
 $("input:text").addClass("form-control");
+
 $("input:email").addClass("form-control");
 
 $("select").addClass("default");
 
 $("input:checkbox").addClass("form-check-input");
+
+$("textarea").addClass("form-control");
 
 const brazilianStates = ['Acre',
     'Alagoas',
