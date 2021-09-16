@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Cadastro de currículo">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulário</title>
+</head>
+<body>
+    <form>    
+        <fieldset id="formulario">
+            <legend>Ficha candidato</legend>
+            <label for="nome">Nome:</label>
+            <input type="text" id="name" minlength="1" maxlength="40" required>
+            <label for="eMail">Email:</label>
+            <input type="email" id="eMail" minlength="1" maxlength="50" required>
+            <label for="cpf">CPF:</label>
+            <input type="text" id="cpf" minlength="1" maxlength="11" required>
+            <label for="endereco">Endereço:</label>
+            <input type="text" id="endereco" minlength="1" maxlength="200" required>
+            <label for="cidade">Cidade:</label>
+            <input type="text" id="cidade" minlength="1" maxlength="28" required>
+            <label for="estado">Estado:</label>
+            <select name="estados" id="estado" required></select>
+            
+            <label for="casa">Casa:</label>
+            <input type="radio" id="casa" class="moradia" name="house" checked required>
+            <label for="apartamento">Apartamento:</label>
+            <input type="radio" id="apartamento" class="moradia" name="apartment" required>
+        </fieldset>
+        
+        <fieldset id="curriculo">
+            <legend>Experiências</legend>
+            <label for="resumo">Resumo das atividades:</label>
+            <textarea name="atividades" id="resumo" cols="30" rows="10" minlength="1" maxlength="1000" required></textarea>
+            <label for="cargo">Cargo:</label>
+            <input type="text" id="cargo" minlength="1" maxlength="40" required>
+            <label for="descricao">Descrição do cargo:</label>
+            <input type="text" id="descricao" minlength="1" maxlength="500" required>
+            <label for="data">Data de início:</label>
+            <input type="date" name="date" id="data" required>
+        </fieldset>
+    </form>
+    <button id="btn-submit">Enviar</button>
+    <script src="script.js"></script>
+</body>
+</html>
