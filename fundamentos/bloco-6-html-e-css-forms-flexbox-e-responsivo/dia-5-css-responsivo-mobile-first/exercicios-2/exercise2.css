@@ -1,0 +1,81 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+@media (min-width: 1000px) and (max-width: 1768px) {
+  body {
+    background-color: white;
+    color: #333;
+  }
+
+  header p {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 20px;
+    font-size: 2em;
+  }
+
+  header nav {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  header ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 0 30px;
+    margin-right: 20px;
+    font-size: 1.5em;
+  }
+
+  header li {
+    display: flex;
+    justify-content: space-around;
+    text-decoration: none;
+  }
+
+  header li:hover {
+    text-decoration: underline;
+    transform: scale(1.5);
+    transition: 1.5s;
+  }
+
+  .aside-one {
+      display: flex;
+      justify-content: center;
+      display: column;
+  }
+
+  .aside-two {
+      display: flex;
+      justify-content: center;
+  }
+
+  .main-content {
+      display: flex;
+      align-content: center;
+      flex-direction: column;
+      margin: 30px;
+  }
+
+  footer {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      margin: 30px;
+  }
+
+  footer h3 {
+      display: flex;
+      justify-content: center;
+  }
+
+}
+
