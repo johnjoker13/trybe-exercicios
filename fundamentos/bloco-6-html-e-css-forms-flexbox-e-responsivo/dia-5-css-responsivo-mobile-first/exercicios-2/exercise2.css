@@ -173,3 +173,99 @@ html {
           font-size: 2em;
       }    
 }
+
+@media (min-width: 375px) and (max-width: 750px) {
+    body {
+        background-color: #cecece;
+        color: #000;
+      }
+
+      p {
+          font-size: 2em;
+      }
+
+      header {
+          padding: 20px;
+      }
+    
+      header p {
+        display: flex;
+        justify-content: flex-start;
+        margin-left: 20px;
+        font-size: 2em;
+      }
+    
+      header nav {
+        display: flex;
+        justify-content: flex-end;
+      }
+    
+      header ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 0 30px;
+        margin-right: 20px;
+      }
+    
+      header li {
+        display: flex;
+        justify-content: space-around;
+        text-decoration: none;
+        font-size: 2em;
+      }
+    
+      header li:hover {
+        text-decoration: underline;
+        transform: scale(1.5);
+        transition: 1.5s;
+      }
+    
+      .aside-one {
+          display: flex;
+          justify-content: center;
+          display: column;
+          font-size: 1.5em;
+          padding: 20px;
+      }
+
+      .aside-one h2 {
+          display: block;
+      }
+
+      .aside-one li {
+          margin: 20px;
+          display: block;
+      }
+    
+      .aside-two {
+          display: flex;
+          justify-content: center;
+          font-size: 1.5em;
+          padding: 30px;
+      }
+      
+      .aside-two li {
+        margin: 20px;
+      }
+      .main-content {
+          display: flex;
+          align-content: center;
+          flex-direction: column;
+          margin: 30px;
+      }
+    
+      footer {
+          display: flex;
+          justify-content: center;
+          flex-direction: column;
+          margin: 30px;
+      }
+    
+      footer h3 {
+          display: flex;
+          justify-content: center;
+          font-size: 2em;
+      }    
+}
+
