@@ -51,3 +51,10 @@ Este repositório contém todos os exercícios realizados por [João Oliveira](w
 - [x] 6-4: _CSS Flexbox - Parte 2_
 - [x] 6-5: _CSS Responsivo - Mobile First_
 - [x] 6-6: _Projeto - Trybewarts_
+
+##### Bloco 7: Introdução à JavaScript ES6 e Testes Unitários ⏳
+
+- [x] 7-1: _JavaScript ES6 - let, const, arrow functions e template literals_
+- [x] 7-2: _JavaScript ES6 - Objects_
+- [ ] 7-3: _Primeiros passos em Jest_
+- [ ] 7-4: _Projeto - JavaScript Testes Unitários_
