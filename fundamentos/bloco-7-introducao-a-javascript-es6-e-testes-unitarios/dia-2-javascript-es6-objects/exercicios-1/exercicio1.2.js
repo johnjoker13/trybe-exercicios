@@ -14,7 +14,7 @@ const student2 = {
 };
 
 const showKeys = (obj) => {
-  const skills = Object.keys(obj);
+  const skills = Object.getOwnPropertyNames(obj);
     for(let j in skills) {
       return `${skills[j]} :\n Nível: ${obj[skills[j]]}`;
   }
