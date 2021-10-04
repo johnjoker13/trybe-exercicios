@@ -3,8 +3,8 @@ const STUDENT_ANSWERS = ['Z', 'N.A', 'B', 'D', 'A', 'C', 'N.A', 'A', 'D', 'B'];
 
 const checkScores = (template, answers) => {
     let count = 0;
-    answers.forEach((function (c) {
-        if (template.some(function (a) { return a === c; })) {
+    answers.forEach((c => {
+        if (template.some(a => a === c)) {
             count += 1;
         } else {
             count -= 1; 
