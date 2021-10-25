@@ -68,9 +68,13 @@ Este repositório contém todos os exercícios realizados por [João Oliveira](w
 - [x] 8-5: _JavaScript ES6 - spread operator, parâmetro rest, destructuring e mais_
 - [x] 8-6: _Projeto - Zoo functions_
 
-##### Bloco 9: Javascript e Testes Assíncronos ⏳
+##### Bloco 9: Javascript e Testes Assíncronos ✔️
 
 - [x] 9-1 _JavaScript Assíncrono e Callbacks
 - [x] 9-2 _JavaScript Assíncrono  - Fetch API e async/await
-- [ ] 9-3 _Jest - Testes Assíncronos_
-- [ ] 9-4 _Projeto - Carrinho de compras_ 
+- [x] 9-3 _Jest - Testes Assíncronos_
+- [x] 9-4 _Projeto - Carrinho de compras_ 
+
+## Desenvolvimento Front-End ⏳
+
+- [ ] 
