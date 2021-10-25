@@ -1,0 +1,29 @@
+body {
+  background-color: #333;
+}
+
+.cabecalho {
+  color: white;
+  text-align: center;
+}
+
+.container {
+  border: 1px solid white;
+  border-radius: 25px;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  height: 100%;
+  text-align: center;
+}
+
+.list {
+  list-style: none;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 200px;
+  color: white;
+}
