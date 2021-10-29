@@ -77,10 +77,10 @@ Este repositório contém todos os exercícios realizados por [João Oliveira](w
 
 ## Desenvolvimento Front-End ⏳
 
-##### Bloco 10: Introdução à React ⏳
+##### Bloco 10: Introdução à React ✔️
 
 - [x] 1.1 - _Introdução-Front-End_
 - [x] 1.2 - _Introdução-React_
 - [x] 1.3 - _'Hello, World!' no React_
-- [ ] 2.1 - _Componentes React_ 
-- [ ] 3.1 - _Projeto - Sistema Solar_ 
+- [x] 2.1 - _Componentes React_ 
+- [x] 3.1 - _Projeto - Sistema Solar_ 
