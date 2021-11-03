@@ -17,33 +17,61 @@ class App extends React.Component {
   }
 
   handleClickOne = () => {
-    console.log("clickou:", this);
-    this.setState((estadoAnterior, _props) => ({
-      numeroDeCliques: estadoAnterior.numeroDeCliques + 1,
-    }));
+    this.setState(
+      (estadoAnterior, _props) => ({
+        numeroDeCliques: estadoAnterior.numeroDeCliques + 1,
+      }),
+      () => {
+        console.log(`Botão 1 ${this.buttonColor(this.state.numeroDeCliques)}`);
+      }
+    );
   };
 
   handleClickTwo() {
-    console.log("clicked:", this);
-    this.setState((estadoAnterior, _props) => ({
-      clickNumber: estadoAnterior.clickNumber + 1,
-    }));
+    this.setState(
+      (estadoAnterior, _props) => ({
+        clickNumber: estadoAnterior.clickNumber + 1,
+      }),
+      () => {
+        console.log(`Botão 2 ${this.buttonColor(this.state.clickNumber)}`);
+      }
+    );
   }
   handleClickThree() {
-    console.log("clickeou:", this);
-    this.setState((estadoAnterior, _props) => ({
-      numberClick: estadoAnterior.numberClick + 1,
-    }));
+    this.setState(
+      (estadoAnterior, _props) => ({
+        numberClick: estadoAnterior.numberClick + 1,
+      }),
+      () => {
+        console.log(`Botão 3 ${this.buttonColor(this.state.numberClick)}`);
+      }
+    );
+  }
+
+  buttonColor(num) {
+    return num % 2 === 0 ? "green" : "white";
   }
 
   render() {
+    const { numeroDeCliques, clickNumber, numberClick } = this.state;
     return (
       <>
-        <button onClick={this.handleClickOne}>
+        <button
+          onClick={this.handleClickOne}
+          style={{ backgroundColor: this.buttonColor(numeroDeCliques) }}
+        >
           {this.state.numeroDeCliques}
         </button>
-        <button onClick={this.handleClickTwo}>{this.state.clickNumber}</button>
-        <button onClick={this.handleClickThree}>
+        <button
+          onClick={this.handleClickTwo}
+          style={{ backgroundColor: this.buttonColor(clickNumber) }}
+        >
+          {this.state.clickNumber}
+        </button>
+        <button
+          onClick={this.handleClickThree}
+          style={{ backgroundColor: this.buttonColor(numberClick) }}
+        >
           {this.state.numberClick}
         </button>
       </>
