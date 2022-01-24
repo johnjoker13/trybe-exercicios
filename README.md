@@ -109,25 +109,25 @@ Este repositório contém todos os exercícios realizados por [João Oliveira](w
 - [x] 15-2: _Testando React com a React Testing Library - Parte 2_
 - [x] 15-3: _[Projeto - Testes em React]()_
 
-##### Bloco 15: Introdução ao Redux ⏳
+##### Bloco 15: Introdução ao Redux ✔️
 
-- [x] 16-1: _Introdução ao Redux_
+- [x] 16-1: _Introdução ao Redux_ ✔️
 - [x] 16-2: _React com Redux - Parte 1_
 - [x] 16-3: _React com Redux - Prática_
-- [ ] 16-4: _React com Redux - Parte 2_
-- [ ] 16-5: _Testes síncronos com React-Redux_
-- [ ] 16-6: _[Projeto - Tabela com filtros de dados]()_
+- [x] 16-4: _React com Redux - Parte 2_
+- [x] 16-5: _Testes síncronos com React-Redux_
+- [x] 16-6: _[Projeto - Tabela com filtros de dados]()_
 
-##### Bloco 16: Projeto React
+##### Bloco 16: Projeto React ✔️
 
-- [ ] 17-1: _[Projeto - Jogo de Trivia]()_
+- [x] 17-1: _[Projeto - Jogo de Trivia]()_
 
-##### Bloco 17: React & Context API
+##### Bloco 17: React & Context API ✔️
 
-- [ ] 18-1: _Context API do React_
-- [ ] 18-2: _React Hooks - useState e useContext_
-- [ ] 18-3: _React Hooks - useEffect e Hooks customizados_
-- [ ] 18-4: _[Projeto - StarWars Datatable com Context API e Hooks]()_
+- [x] 18-1: _Context API do React_
+- [x] 18-2: _React Hooks - useState e useContext_
+- [x] 18-3: _React Hooks - useEffect e Hooks customizados_
+- [x] 18-4: _[Projeto - StarWars Datatable com Context API e Hooks]()_
 
 ##### Bloco 18: Projeto Final de Front-end
 
