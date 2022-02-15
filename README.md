@@ -75,7 +75,7 @@ Este repositório contém todos os exercícios realizados por [João Oliveira](w
 - [x] 9-3 _Jest - Testes Assíncronos_
 - [x] 9-4 _Projeto - Carrinho de compras_ 
 
-## Desenvolvimento Front-End ⏳
+## Desenvolvimento Front-End ✔️
 
 ##### Bloco 10: Introdução à React ✔️
 
@@ -129,9 +129,9 @@ Este repositório contém todos os exercícios realizados por [João Oliveira](w
 - [x] 18-3: _React Hooks - useEffect e Hooks customizados_
 - [x] 18-4: _[Projeto - StarWars Datatable com Context API e Hooks]()_
 
-##### Bloco 18: Projeto Final de Front-end
+##### Bloco 18: Projeto Final de Front-end ✔️
 
-- [ ] 19-1: _[Projeto - App de Receitas]()_
+- [x] 19-1: _[Projeto - App de Receitas]()_
 
 ## Desenvolvimento Back-end :hourglass_flowing_sand:
 
