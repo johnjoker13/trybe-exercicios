@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  client:
+    image: httpd:2.4
+    ports:
+      - 4545:80
+    volumes:
+      - /trybe-exercicios/back-end/bloco-19-docker/dia-3-orquestrando-containeres-com-docker-compose/exercicios/missao_trybe.html:/usr/share/apache/html
