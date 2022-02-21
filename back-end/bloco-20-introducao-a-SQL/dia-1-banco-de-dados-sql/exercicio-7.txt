@@ -1,0 +1,3 @@
+1 - um country_id para muitos city
+2 - muitos cities para um country_id
+3 - um actor para muitos title

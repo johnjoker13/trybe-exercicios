@@ -1,0 +1,7 @@
+CREATE TABLE `Filme` (
+  `idFilme` int unsigned NOT NULL AUTO_INCREMENT,
+  `Descricao` varchar(100) NOT NULL,
+  `AnoLancamento` int NOT NULL,
+  `Nota` varchar(45) DEFAULT NULL,
+  PRIMARY KEY (`idFilme`)
+);

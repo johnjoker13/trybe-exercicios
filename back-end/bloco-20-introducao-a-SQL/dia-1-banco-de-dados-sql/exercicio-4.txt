@@ -1,0 +1,1 @@
+A coluna country_id de city faz referência a tabela country
