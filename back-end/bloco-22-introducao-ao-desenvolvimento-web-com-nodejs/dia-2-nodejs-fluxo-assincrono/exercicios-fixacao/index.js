@@ -2,6 +2,7 @@ const firstFunc = require("./exercicio-1");
 const secondFunc = require("./exercicio-2");
 const fourthFunc = require("./exercicio-4");
 const fourthFunc2 = require("./exercicio-4.2");
+const fourthFunc3 = require("./exercicio-4.3");
 
 const readFile = "./simpsons.json";
 
@@ -23,3 +24,5 @@ resultSecond();
 fourthFunc(readFile);
 
 fourthFunc2(readFile, 80);
+
+fourthFunc3(readFile);
