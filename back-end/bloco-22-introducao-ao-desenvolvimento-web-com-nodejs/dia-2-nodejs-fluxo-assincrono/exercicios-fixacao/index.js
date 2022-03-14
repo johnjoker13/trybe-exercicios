@@ -1,5 +1,9 @@
 const firstFunc = require("./exercicio-1");
 const secondFunc = require("./exercicio-2");
+const fourthFunc = require("./exercicio-4");
+const fourthFunc2 = require("./exercicio-4.2");
+
+const readFile = "./simpsons.json";
 
 firstFunc(10, 40, 1)
   .then((result) => console.log(result))
@@ -15,3 +19,7 @@ const resultSecond = async () => {
 };
 
 resultSecond();
+
+fourthFunc(readFile);
+
+fourthFunc2(readFile, 80);
