@@ -4,8 +4,10 @@ const fourthFunc = require("./exercicio-4");
 const fourthFunc2 = require("./exercicio-4.2");
 const fourthFunc3 = require("./exercicio-4.3");
 const fourthFunc4 = require("./exercicio4.4");
+const addNewCharacter = require("./exercicio4.5");
 
 const readFile = "./simpsons.json";
+const readFile2 = "./simpsonsFamily.json";
 
 firstFunc(10, 40, 1)
   .then((result) => console.log(result))
@@ -29,3 +31,5 @@ fourthFunc2(readFile, 80);
 fourthFunc3(readFile);
 
 fourthFunc4(readFile);
+
+addNewCharacter(readFile2);
