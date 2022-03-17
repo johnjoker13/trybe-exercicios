@@ -45,8 +45,6 @@ app.get("/recipes/:id", function (req, res) {
   res.status(200).json(recipe);
 });
 
-// ...
-
 app.put("/recipes/:id", function (req, res) {
   const { id } = req.params;
   const { name, price } = req.body;
@@ -60,8 +58,6 @@ app.put("/recipes/:id", function (req, res) {
   res.status(204).end();
 });
 
-//...
-
 app.delete("/recipes/:id", function (req, res) {
   const { id } = req.params;
   const recipeIndex = recipes.findIndex((r) => r.id === parseInt(id));
@@ -73,8 +69,6 @@ app.delete("/recipes/:id", function (req, res) {
 
   res.status(204).end();
 });
-
-//...
 
 const drinks = [
   { id: 1, name: "Refrigerante Lata", price: 5.0 },
