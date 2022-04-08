@@ -6,7 +6,7 @@ module.exports = {
       {
         full_name: 'Leonardo',
         email: 'leo@test.com',
-        phone_num: 25456989,
+        phone_num: '25456989',
         // usamos a função CURRENT_TIMESTAMP do SQL para salvar a data e hora atual nos campos `createdAt` e `updatedAt`
         created_at: Sequelize.literal('CURRENT_TIMESTAMP'),
         updated_at: Sequelize.literal('CURRENT_TIMESTAMP'),
@@ -14,7 +14,7 @@ module.exports = {
       {
         full_name: 'JEduardo',
         email: 'edu@test.com',
-        phone_num: 14325678,
+        phone_num: '14325678',
         created_at: Sequelize.literal('CURRENT_TIMESTAMP'),
         updated_at: Sequelize.literal('CURRENT_TIMESTAMP'),
       },
