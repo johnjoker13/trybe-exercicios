@@ -11,3 +11,5 @@ app.use(express.urlencoded({ extended: true }));
 app.use('/user', userController);
 
 app.listen(PORT, () => console.log(`Ouvindo na porta ${PORT}!`));
+
+module.exports = app;
